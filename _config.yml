@@ -1,12 +1,11 @@
-title: Khadas Docs
-subtitle: "Khadas Documentation."
-description: "Khadas Documentation."
-author: Khadas
+title: ADLINK IPi Wiki
+subtitle: "ADLINK IPi Documentation."
+description: "ADLINK IPi Documentation."
+author: ADLINK Technology Inc.
 language:
   - en
 timezone: PRC
 
-url: https://docs.khadas.com
 root: /
 permalink: news/:year/:month/:day/:title/
 archive_dir: news
@@ -18,10 +17,7 @@ per_page: 0
 skip_render: vendor/**
 
 theme: navy
-deploy:
-  type: git
-  repo: git@github.com:khadas/khadas.github.io.git
-  branch: master
+
 
 highlight:
   enable: true
@@ -40,5 +36,3 @@ google_analytics: UA-110196417-1
 #  zh-cn:
 #    api_key: cdea7d4e47d84f6145b77e7f68689f35
 #    index_name: hexo_zh-cn
-twitter: khadas_official
-github: khadas/khadas_docs

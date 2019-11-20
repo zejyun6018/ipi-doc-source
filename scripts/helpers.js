@@ -7,7 +7,7 @@ var _ = require('lodash');
 var cheerio = require('cheerio');
 var lunr = require('lunr');
 
-var localizedPath = ['vim1', 'vim2', 'vim3', 'edge', 'toneboard', 'firmware', 'faq'];
+var localizedPath = ['iot_pi', 'ros_pi', 'ai_pi'];
 
 function startsWith(str, start) {
   return str.substring(0, start.length) === start;
@@ -18,8 +18,8 @@ hexo.extend.helper.register('page_nav', function() {
   var sidebar = this.site.data.sidebar[type];
   var path = pathFn.basename(this.path);
   var list = {};
-  var prefix = 'sidebar.' + type + '.';
-
+//  var prefix = 'sidebar.' + type + '.';
+  var prefix =  '';
   for (var i in sidebar) {
     for (var j in sidebar[i]) {
       list[sidebar[i][j]] = j;
@@ -53,8 +53,8 @@ hexo.extend.helper.register('doc_sidebar', function(className) {
   var self = this;
   var first_link = '';
 
-  var prefix = 'sidebar.' + type + '.';
-
+  //var prefix = 'sidebar.' + type + '.';
+  var prefix ='';
   _.each(sidebar, function(menu, title) {
     first_link = 'yes';
 	link_temp = '';
@@ -99,15 +99,9 @@ hexo.extend.helper.register('header_menu', function(className) {
     }
 
     if (path === currentPath) {
-      if (title === 'firmware')
-		result += '<a href="https://dl.khadas.com/Firmware/" target="_blank" class="' + className + '-link current">' + self.__('menu.' + title) + '</a>';
-	  else
-		result += '<a href="' + self.url_for(path) + '" class="' + className + '-link current">' + self.__('menu.' + title) + '</a>';
+		    result += '<a href="' + self.url_for(path) + '" class="' + className + '-link current">' + self.__( title) + '</a>';
 	} else {
-	  if (title === 'firmware')
-		result += '<a href="https://dl.khadas.com/Firmware/" target="_blank" class="' + className + '-link">' + self.__('menu.' + title) + '</a>';
-	  else
-		result += '<a href="' + self.url_for(path) + '" class="' + className + '-link">' + self.__('menu.' + title) + '</a>';
+		  result += '<a href="' + self.url_for(path) + '" class="' + className + '-link">' + self.__( title) + '</a>';
     }
   });
 
@@ -130,9 +124,6 @@ hexo.extend.helper.register('url_for_lang', function(path) {
   return url;
 });
 
-hexo.extend.helper.register('raw_link', function(path) {
-  return 'https://github.com/khadas/khadas_docs/edit/master/source/' + path;
-});
 
 hexo.extend.helper.register('page_anchor', function(str) {
   var $ = cheerio.load(str, {decodeEntities: false});
@@ -169,7 +160,7 @@ hexo.extend.helper.register('lunr_index', function(data) {
 hexo.extend.helper.register('canonical_path_for_nav', function() {
   var path = this.page.canonical_path;
 
-  if (startsWith(path, 'vim1/') || startsWith(path, 'vim2/') || startsWith(path, 'vim3/') || startsWith(path, 'edge/') || startsWith(path, 'firmware/') || startsWith(path, 'toneboard/') || startsWith(path, 'faq/')) {
+  if (startsWith(path, 'iot_pi/') || startsWith(path, 'ros_pi/') || startsWith(path, 'ai_pi/') )  {
     return path;
   }
   return '';
@@ -191,4 +182,3 @@ hexo.extend.helper.register('disqus_lang', function() {
 hexo.extend.helper.register('hexo_version', function() {
   return this.env.version;
 });
-
