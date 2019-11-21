@@ -32,7 +32,7 @@ $ hexo s
 ## How to add/modify the source of ipi-doc
 
 
-#### Basic rules
+### Basic rules
 
 * your markdown and hexo source must build
 * please make sure that website can work at your local side
