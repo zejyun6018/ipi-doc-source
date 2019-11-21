@@ -6,6 +6,6 @@ comments: false
 
 ## Oops! File not found!
 
-Please feed back to [Khadas Forum](http://forum.khadas.com/) or send E-mail to hello@khadas.com.
+Please feed back send E-mail to ryanzj.huang@adlinktech.com
 
 [Return to home page](/index.html).
