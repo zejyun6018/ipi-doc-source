@@ -1,85 +1,60 @@
-title: How to Flash Yocto Image
+title: How to flash image to SD Card
 ---
- 
 
-There is no need to install a device driver under Linux. You can connect to the device by referring to the Windows chapter.
-
-
-
-### Booting Linux from eMMC
-
-This procedure describes how to install Yocto images to eMMC on LEC-PX30 module with IPi-SMARC
-
-**Note:** All of files will be erased on eMMC.
+The procedure to describes how to flash the image to the MicroSD Card
 
 
 
-#### Under Linux environment:
+### Prerequisites
 
-##### 1. Prerequisites
+- Copy the prebuilt bootable Linux image to the working directory on your development host.
 
-- Rockchip provides the flashing tool under Linux and please download from [Rockchip GitHub](https://github.com/rockchip-linux/tools/tree/master/linux/Linux_Upgrade_Tool)
+  **Note**: if you don't have images, please go to here for the download
 
-  Unzip it and you will get a file called **upgrade_tool** which is a binary executable file under Linux.
-
-##### 2. Here is the procedure
-
-1. Connect LEC-PX30 with IPi-SMARC board to the development Host PC by using MicroUSB cable
-
-2. Please configure the board to **MASKROM Mode**
-
-3. Please issue the following commands for flashing image:
-
-```
-$ sudo ./upgrade_tool uf update.img
-```
-
-**Note**: Here is the command to erase the flash if need
-
-```
-$ sudo ./upgrade_tool ef update.img
-```
+- For Windows environment, please download and Install [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) to flash image to SD Card
 
 
 
+### Here is the procedure
 
-#### Under Windows environment:
+This procedure describes how to install u-boot, Linux kernel and filesystem images to MicroSD Card.
 
-##### 1. Prerequisites
-
-- Download [DriverAssitant.zip](https://github.com/rockchip-linux/tools/tree/master/windows) and then install it on the development Host PC.
-
-  <img src="HowToFlashImage.assets/1568692053375.png" alt="1568692053375" width="400px" />
-
-- Rockchip provides the flashing tool under Windows and please download **AndroidTool** from [Rockchip GitHub](https://github.com/rockchip-linux/tools/tree/master/windows/AndroidTool).
-
-- After download, extract it and locate the file named config,ini to modify the language to English from "Selected=1" to "Selected=2"
-
-  <img src="HowToFlashImage.assets/2019-10-02_144321.png" alt="2019-10-02_144321" width="450px" />
+​       **Note:** All of files will be erased on MicroSD Card. The size should be at least 16 Gb.
 
 
 
-  **Note**:  Selected=1 (Chinese Language), Selected=2 (English)
+##### For Windows environment:
+
+1. Insert an empty MicroSD Card into development host and execute Win32DiskImager.exe as the below. Find out where your removable drive is mounted and check which mount point the drive is listed under. Here is an example of an SD card listed under **E:**
+
+<img src="HowToFlashImage.assets/win32diskimager.png" alt="win32diskimager" style="zoom:80%;" />
 
 
 
+2. In the Image File box, choose .img that you copy previously and click on **Write button** and wait for the process until the completion.
 
-
-##### 2. Here is the procedure
-
-1. Connect LEC-PX30 with IPi-SMARC board to the development Host PC by using MicroUSB cable
-2. Please configure the board to **MASKROM** Mode and also check if the current status is **Found One MASKROM Device** on AndroidTool.
-
-<img src="HowToFlashImage.assets/2019-10-02_150003.png" alt="2019-10-02_150003" width="700px" />
+<img src="HowToFlashImage.assets/win32diskimager_load_image.png" alt="win32diskimager_load_image" style="zoom: 80%;" />
 
 
 
-3. Then, choose the tab of Upgrade Firmware on AndroidTool and click "Firmware button" to selec the image you build
-
-<img src="HowToFlashImage.assets/2019-10-02_14593522222.png" alt="2019-10-02_14593522222" width="700px" />
+3. Insert MicroSD Card with image to the Card holder of IPI-SMARC and configure the board for booting from the MicroSD Card.
 
 
 
-4. Then, click "Upgrade button" to start to flash to eMMC until the process completion.
+##### For Linux environment:
 
-<img src="HowToFlashImage.assets/2019-10-02_14593511111-1570026183294.png" alt="2019-10-02_14593511111" width="700px" />
+1. Insert an empty MicroSD Card into development host and enter the following command to copy .img to MicroSD Card
+
+   ```
+   $ sudo dd if=[image name].img of=/dev/sd[x]
+   ```
+
+   **Note**: please look for the location of MicroSD card device, such as **/dev/sdb** or **/dev/sda**
+
+
+
+2. After done, please enter the following command
+
+   ```
+   $ sync
+   ```

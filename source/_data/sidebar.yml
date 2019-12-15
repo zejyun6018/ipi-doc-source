@@ -1,77 +1,30 @@
 iot_pi:
-  getting_started:
-    overview: index.html
-    BlockDiagram: BlockDiagram.html
-    MechanicalandThermal: MechanicalandThermal.html
-    PinoutSummary: PinoutSummary.html
-    SignalDescriptions: SignalDescriptions.html
-  development:
-    HowToFlashImage: HowToFlashImage.html
+  Getting Started:
+    What's inside Box: index.html
+    User Interfaces: UserInterfaces.html
+    How to Setup: HowToSetup.html
+    How To flash SD Card: HowToFlashImage.html
+  Hardware Overview:
+    IoT Prototype Kit: IoTPrototypeKit.html
+    SMARC module: SMARCModuleOverview.html
+  Downloads:
+    Yocto Images: YoctoImages.html
+    Ubuntu Images: UbuntuImages.html
+    Android Images: AndroidImages.html
+  Arduino Create:
+    How to use MRAA: HowToUseMRAA.html
+  Build your OS:
+    Overview: BuildYourOSOverview.html
+    How to Build U-boot: HowToBuildUboot.html
+    How to Build Ubuntu: HowToBuildUbuntu.html
+    How to Build Yocto: HowToBuildYocto.html
+    How to Install MRAA: HowToInstallMRAA.html
+  SMARC Hardware:
+    SMARC Overview: SMARCModuleOverview.html
+
 
 ros_pi:
-  getting_started:
-    overview: index.html
-    vim2_interfaces: Vim2Interfaces.html
-    enter_upgrade_mode: HowtoBootIntoUpgradeMode.html
-    upgrade_via_usb: UpgradeViaUSBCable.html
-    upgrade_via_tfcard: UpgradeViaTFBurningCard.html
-    install_libreelec: InstallLibreELEC.html
-    create_burning_card_via_cli: CreateBurnCardViaCLI.html
-    create_booting_card: CreateBootableSDCard.html
-    booting_card_vs_burning_card: BootingCardVsBurningCard.html
-    boot_from_ext_image: BootFromExtMedia.html
-    extra_power_input: ExtraPowerInput.html
-    gpio_pinout: GPIOPinout.html
-  development:
-    install_toolchains: InstallToolchains.html
-    setup_serial: SetupSerialTool.html
-    erase_emmc: HowtoEraseEMMC.html
-    how_to_access_gpio: HowToAccessGpio.html
-    how_to_access_i2c: HowToAccessI2c.html
-    how_to_install_adb_tool: HowToInstallADBTool.html
-  uboot:
-    uboot_usage: UBootUsage.html
-    build_boot_logo_for_uboot: BuildBootLogoForUboot.html
-    setup_tftp: SetupTFTPServer.html
-    load_image_via_tftp: LoadImagesWithUBootViaTFTP.html
-    kbi_guidance: KbiGuidance.html
-  android:
-    download_android_source_code: DownloadAndroidSourceCode.html
-    build_android: BuildAndroid.html
-    package_update_image: FastPackageUpdateImage.html
-    setup_adb: SetupADB.html
-    howto_use_wol: HowtoUseWol.html
-    force_reset_features: ForceResetFeatures.html
-  linux:
-    fenix_script: FenixScript.html
-    how_to_connect_wifi: HowToConnectWifi.html
-    how_to_setup_bluetooth: HowToSetupBluetooth.html
-    bluetooth_instructions: BluetoothInstructions.html
-    how_to_setup_watchdog: HowToSetupWatchdog.html
-    add_chinese_support: AddChineseSupport.html
-    how_to_setup_fan: HowToSetupFan.html
-    install_tensorflow: InstallTensorFlow.html
-    install_docker: InstallDocker.html
-    setup_golang: SetupGolang.html
-    enable_adb: HowtoEnableAdb.html
-    how_to_use_wiringpi: HowToUseWiringPi.html
-    how_to_use_rpigpio: HowToUseRPiGPIO.html
-  fuchsia:
-    build_fuchsia: BuildFuchsia.html
-  hardware:
-    download: HardwareDocs.html
-  firmware:
-    android_image: FirmwareAndroid.html
-    ubuntu_image: FirmwareUbuntu.html
-    libreelec_image: FirmwareLibreelec.html
-    dualos_image: FirmwareDualos.html
-    uboot_image: FirmwareUboot.html
-    thirdparty_image: FirmwareThirdparty.html
+
+
 
 ai_pi:
-  getting_started:
-    overview: index.html
-    BlockDiagram: BlockDiagram.html
-    MechanicalandThermal: MechanicalandThermal.html
-    PinoutSummary: PinoutSummary.html
-    SignalDescriptions: SignalDescriptions.html
