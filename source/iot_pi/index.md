@@ -1,2 +1,2 @@
-title: What's Inside the Box
+title: What's inside the Box
 ---
