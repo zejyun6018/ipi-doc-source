@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html>
 {{ partial('partial/head') }}
 <body>
   <div id="container">

@@ -18,8 +18,7 @@ hexo.extend.helper.register('page_nav', function() {
   var sidebar = this.site.data.sidebar[type];
   var path = pathFn.basename(this.path);
   var list = {};
-//  var prefix = 'sidebar.' + type + '.';
-  var prefix =  '';
+  var prefix = 'sidebar.' + type + '.';
   for (var i in sidebar) {
     for (var j in sidebar[i]) {
       list[sidebar[i][j]] = j;
@@ -32,12 +31,12 @@ hexo.extend.helper.register('page_nav', function() {
 
   if (index > 0) {
     result += '<a href="' + keys[index - 1] + '" class="article-footer-prev" title="' + this.__(prefix + list[keys[index - 1]]) + '">'
-      + '<i class="fa fa-chevron-left"></i><span>' + this.__('page.prev') + '</span></a>';
+      + '<i class="fa fa-chevron-left"></i><span>Prev</span></a>';
   }
 
   if (index < keys.length - 1) {
     result += '<a href="' + keys[index + 1] + '" class="article-footer-next" title="' + this.__(prefix + list[keys[index + 1]]) + '">'
-      + '<span>' + this.__('page.next') + '</span><i class="fa fa-chevron-right"></i></a>';
+      + '<span>Next</span><i class="fa fa-chevron-right"></i></a>';
   }
 
   return result;

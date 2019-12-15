@@ -1,8 +1,6 @@
 title: Yocto Linux Images
 ---
 
-​<img src="https://static.wixstatic.com/media/3b5532_bab5dd92c28747f1b486c0d38d1b80ff~mv2.png" style="zoom:50%;" />
-
 We provide a  variety of BSPs development with x86 and Rockchip platform to help customers get to market quickly and efficiently.
 
 
