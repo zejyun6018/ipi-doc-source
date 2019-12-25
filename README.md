@@ -35,7 +35,9 @@ $ hexo s
 ### Basic rules
 
 * your markdown and hexo source must build
+* your image format goes to .png
 * please make sure that website can work at your local side
+
 
 
 ### How to work
