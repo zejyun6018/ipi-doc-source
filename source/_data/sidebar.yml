@@ -26,6 +26,16 @@ iot_pi:
 neuron_pi:
   Getting Started:
     What's inside Box: index.html
+  ROS:
+    Install Ubuntu: install_ubuntu.html
+    Install ROS: install_ros.html
+    ROS dotfiles: ros_dotfile.html
+    Cyclone DDS: cyclonedds.html
+    Verify turtlesim: verify_turtlesim.html
+    ROS Domain ID: ros_domain_id.html
+    Programming Tutorial: programming_tutorial.html
+    Useful Software: useful_software.html
+    Reference: reference.html
 
 
 ai_pi:
