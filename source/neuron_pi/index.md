@@ -1,1 +1,2 @@
-../iot_pi/index.md
+title: What's inside the Box
+---
