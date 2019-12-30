@@ -1,4 +1,5 @@
-# Ubuntu Installation Guide
+title: Ubuntu Installation Guide
+---
 
 ## Download Ubuntu Desktop image
 
