@@ -26,14 +26,10 @@ iot_pi:
 neuron_pi:
   Getting Started:
     What's inside Box: index.html
-    User Interfaces: UserInterfaces.html
     How to Setup: HowToSetup.html
-    How To flash SD Card: HowToFlashImage.html
   Hardware Overview:
-    IoT Prototype Kit: IoTPrototypeKit.html
+    User Interfaces: UserInterfaces.html
     SMARC module: SMARCModuleOverview.html
-  SMARC Hardware:
-    SMARC Overview: SMARCModuleOverview.html
   ROS:
     Install Ubuntu: install_ubuntu.html
     Install ROS: install_ros.html
@@ -42,6 +38,7 @@ neuron_pi:
     Verify turtlesim: verify_turtlesim.html
     ROS Domain ID: ros_domain_id.html
     Programming Tutorial: programming_tutorial.html
+    How to Install MRAA: HowToInstallMRAA.html
     Reference: reference.html
 
 
