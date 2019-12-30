@@ -21,8 +21,23 @@ iot_pi:
     SMARC Overview: SMARCModuleOverview.html
 
 
-ros_pi:
-
+neuron_pi:
+  Getting Started:
+    What's inside Box: index.html
+    How to Setup: HowToSetup.html
+  Hardware Overview:
+    User Interfaces: UserInterfaces.html
+    SMARC module: SMARCModuleOverview.html
+  ROS:
+    Install Ubuntu: install_ubuntu.html
+    Install ROS: install_ros.html
+    ROS dotfiles: ros_dotfiles.html
+    Cyclone DDS: cyclonedds.html
+    Verify turtlesim: verify_turtlesim.html
+    ROS Domain ID: ros_domain_id.html
+    Programming Tutorial: programming_tutorial.html
+    How to Install MRAA: HowToInstallMRAA.html
+    Reference: reference.html
 
 
 ai_pi:

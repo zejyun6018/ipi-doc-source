@@ -7,7 +7,7 @@ var _ = require('lodash');
 var cheerio = require('cheerio');
 var lunr = require('lunr');
 
-var localizedPath = ['iot_pi', 'ros_pi', 'ai_pi'];
+var localizedPath = ['iot_pi', 'neuron_pi', 'ai_pi'];
 
 function startsWith(str, start) {
   return str.substring(0, start.length) === start;
@@ -159,7 +159,7 @@ hexo.extend.helper.register('lunr_index', function(data) {
 hexo.extend.helper.register('canonical_path_for_nav', function() {
   var path = this.page.canonical_path;
 
-  if (startsWith(path, 'iot_pi/') || startsWith(path, 'ros_pi/') || startsWith(path, 'ai_pi/') )  {
+  if (startsWith(path, 'iot_pi/') || startsWith(path, 'neuron_pi/') || startsWith(path, 'ai_pi/') )  {
     return path;
   }
   return '';
