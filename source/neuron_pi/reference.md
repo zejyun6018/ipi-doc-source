@@ -1,4 +1,5 @@
-# Reference
+title: Reference
+---
 
 A couple of must-know references will be list bellow.
 

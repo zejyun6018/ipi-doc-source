@@ -1,4 +1,5 @@
-# ROS dotfiles
+title: ROS dotfiles
+---
 
 Setting ROS environment every time is an annoying job.
 ADLINK provides ROS dotfiles to make your life easier.
