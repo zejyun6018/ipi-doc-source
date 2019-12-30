@@ -16,6 +16,7 @@ A couple of must-know references will be list bellow.
 * [ROS Tutorial](http://wiki.ros.org/ROS/Tutorials) : Step by step tutorial for ROS beginner. 
 
 ## Common links
+
 * [ROS Discourse](https://discourse.ros.org/) : The forum for discussion and projects announcement.
 * [ROS Answer](https://answers.ros.org/questions/) : The forum for ROS Q / A.
 * [ADLINK-ROS Github](https://github.com/Adlink-ROS) : The Github repos of ADLINK.

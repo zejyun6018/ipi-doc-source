@@ -3,7 +3,7 @@
 Setting ROS environment every time is an annoying job.
 ADLINK provides ROS dotfiles to make your life easier.
 
-# Install
+## Install
 
 * Clone the repository
 
@@ -59,7 +59,7 @@ Please choose an option 1-4:
 Please choose an option 1-4: 
 ```
 
-# Upgrade
+## Upgrade
 
 It's very easy to upgrade the dotfiles.
 
@@ -78,7 +78,7 @@ git checkout <new_version>
 
 * Next time you open the terminal, it'll be new version.
 
-# Uninstall
+## Uninstall
 
 * If you don't want the ros_dotfiles anymore, you can just remove these files.
 
@@ -90,7 +90,7 @@ rm -f ~/.extra_bashrc
 
 * Also remember to remove `source ~/.ros_bashrc` in your `~/.bashrc`.
 
-# Issues Report
+## Issues Report
 
 If you find any problems or have any suggestions, feel free to open issues on GitHub.
 
