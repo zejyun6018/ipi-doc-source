@@ -10,11 +10,9 @@ iot_pi:
   Downloads:
     Yocto Images: YoctoImages.html
     Ubuntu Images: UbuntuImages.html
-    Android Images: AndroidImages.html
   Arduino Create:
     How to use MRAA: HowToUseMRAA.html
   Build your OS:
-    Overview: BuildYourOSOverview.html
     How to Build U-boot: HowToBuildUboot.html
     How to Build Ubuntu: HowToBuildUbuntu.html
     How to Build Yocto: HowToBuildYocto.html
