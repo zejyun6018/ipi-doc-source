@@ -1,9 +1,9 @@
-title:  User Interfaces 
+title:  User Interfaces
 ---
 
 
 
-### Industrial -Pi SMARC with SMARC LEC-PX30 SoM
+## Industrial -Pi SMARC with SMARC LEC-PX30 SoM
 
 
 <img src="UserInterfaces.assets/UserInterface.png" style="zoom:67%;" />
@@ -27,9 +27,9 @@ title:  User Interfaces
 | O    | Audio Jack          | 3.5 mm Audio jack                                            |
 | P    | Reset  Button       | Forcefully  reboot your system                               |
 
- 
 
-### 40 Pin Expansion Header Pin-Out
+
+## 40 Pin Expansion Header Pin-Out
 
 
 | Linux GPIO (/sys/class/gpio) | Function  | MRAA number | MRAA number | Function  | Linux GPIO (/sys/class/gpio) |
@@ -59,21 +59,18 @@ title:  User Interfaces
 
 
 
-###  **Power Supply**
+## **Power Supply**
 
 The Industrial Pi-SMARC is powered by a 12V DC power supply, make sure this supply can reach 1.5A@12V DC.", standard a compatible power supply is delivered together with your development board
 
- 
 
-### **Displays & User Input**
+
+## **Displays & User Input**
 
 Following items are needed when connecting your Ipi-SMARC to an external display  for use as a desktop computer or media center.  > HDMI 1.4 Cable  and a  (Wireless) USB Keyboard + Mouse
 
 
 
-###  **Linux OS image** 
+## **Linux OS image**
 
 The Industrial Pi-SMARC is equipped with a MICRO SD card slot to boot a compatible operating system and OS image also included MRAA Library & sample codes.  
-
-
-
