@@ -1,6 +1,6 @@
 iot_pi:
   Getting Started:
-    What's inside Box: index.html
+    What's inside the Box: index.html
     User Interfaces: UserInterfaces.html
     How to Setup: HowToSetup.html
     How To flash SD Card: HowToFlashImage.html
@@ -10,8 +10,6 @@ iot_pi:
   Downloads:
     Yocto Images: YoctoImages.html
     Ubuntu Images: UbuntuImages.html
-  Arduino Create:
-    How to use MRAA: HowToUseMRAA.html
   Build your OS:
     How to Build U-boot: HowToBuildUboot.html
     How to Build Ubuntu: HowToBuildUbuntu.html
