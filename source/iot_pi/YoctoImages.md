@@ -1,12 +1,10 @@
 title: Yocto Linux Images
 ---
 
-
-## Yocto rocko with Xfce Desktop Environment
-
 <img align="right" src="https://www.phytec.eu/fileadmin/_processed_/csm_yocto_project_eebe407216.png" style="zoom: 30%;" />
 
 
+## Yocto rocko with Xfce Desktop Environment
 
 Please place SD card into the slot for your development kit. After the bootup for a while, you will see the above screen. If your kit arrived without SD card contact your distributor to obtain one.
 
