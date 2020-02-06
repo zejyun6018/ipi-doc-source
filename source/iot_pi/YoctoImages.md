@@ -4,8 +4,7 @@ title: Yocto Linux Images
 
 ## Yocto rocko with Xfce Desktop Environment
 
-<img align="right" src="https://www.phytec.eu/fileadmin/_processed_/csm_yocto_project_eebe407216.png" style="zoom: 30%;" />We provide a Yocto binary image for development with Rockchip platform to help customers get to market quickly and efficiently.
-
+<img align="right" src="https://www.phytec.eu/fileadmin/_processed_/csm_yocto_project_eebe407216.png" style="zoom: 30%;" />
 
 
 
