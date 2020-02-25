@@ -1,33 +1,24 @@
 iot_pi:
   Getting Started:
-    What's inside the Box: index.html
+    Introduction: index.html
+    UnBoxing: UnBoxing.html
     User Interfaces: UserInterfaces.html
     How to Setup: HowToSetup.html
+  Image downloads:
+    Ubuntu: UbuntuImages.html
+    Yocto: YoctoImages.html
     How To flash SD Card: HowToFlashImage.html
-  Hardware Overview:
-    IoT Prototype Kit: IoTPrototypeKit.html
-    SMARC module: SMARCModuleOverview.html
-  Downloads:
-    Yocto Images: YoctoImages.html
-    Ubuntu Images: UbuntuImages.html
   Build your OS:
-    How to Build U-boot: HowToBuildUboot.html
     How to Build Ubuntu: HowToBuildUbuntu.html
     How to Build Yocto: HowToBuildYocto.html
-    How to Install MRAA: HowToInstallMRAA.html
-  SMARC Hardware:
+  Adding MRAA/UPM:
+    How to Install : HowtoInstallMRAA.html
+  Hardware Overview:
     SMARC Overview: SMARCModuleOverview.html
 
-
 neuron_pi:
-  Getting Started:
-    What's inside Box: index.html
-    How to Setup: HowToSetup.html
-  Hardware Overview:
-    User Interfaces: UserInterfaces.html
-    SMARC module: SMARCModuleOverview.html
   ROS:
-    Install Ubuntu: install_ubuntu.html
+    Install Ubuntu: index.html
     Install ROS: install_ros.html
     ROS dotfiles: ros_dotfiles.html
     Cyclone DDS: cyclonedds.html
@@ -36,6 +27,3 @@ neuron_pi:
     Programming Tutorial: programming_tutorial.html
     How to Install MRAA: HowToInstallMRAA.html
     Reference: reference.html
-
-
-ai_pi:
