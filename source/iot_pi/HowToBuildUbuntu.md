@@ -305,4 +305,4 @@ $ sudo apt-get install repo git-core gitk git-gui gcc-arm-linux-gnueabihf u-boot
       $ ./build.sh
        ```
 
-###  
+12. Please refer to [here](https://ipi.wiki/iot_pi/HowToFlashImage.html) to guide you how to flash Ubuntu Image to SD card.

@@ -7,8 +7,6 @@ The procedure to describes how to flash the image to the SD Card
 
 ## Prerequisites
 
-
-
 - Copy the prebuilt bootable Linux image to the working directory on your development host.
 - In Windows environment, please download [rufus](https://rufus.ie/) to flash image to SD Card
 
@@ -58,8 +56,5 @@ This procedure describes how to install u-boot, Linux kernel and filesystem imag
 
 Insert the prepared MicroSD card into the MicroSD card slot on the carrier. 
 
-
-
 **Note**: No need to configure on Boot selector of **LEC-PX30 with Industrial-Pi** for MicroSD card Booting. Only directly insert MicroSD Card and power on.
 
-<img class="center" src="HowToFlashImage.assets/switch.png" style="zoom: 67%;" />

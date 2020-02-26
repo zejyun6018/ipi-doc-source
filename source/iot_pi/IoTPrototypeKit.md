@@ -1,2 +1,0 @@
-title: IoT Prototype Kit
----

@@ -1,2 +1,0 @@
-title: SMARC Module Overview
----

@@ -17,13 +17,13 @@ title:  User Interfaces
 | E    | 40-Pin HEADER       | RBP  compatible 40 pins signal header                        |
 | F    | ADC  header         | Analog signal input                                          |
 | G    | BOOT  select        | Selector  to change boot modes                               |
-| H    | HDMI  port          | For  connecting external displays via HDMI (**Only PX30**)   |
+| H    | HDMI  port          | For  connecting external displays via HDMI (**Only for Industrial Pi**) |
 | I    | Micro-SD  Card Slot | Boot OS  via Micro-SD                                        |
 | J    | Power  Button       | Power on your system                                         |
 | K    | CAN  bus Header     | Screw  type header for CAN bus                               |
 | L    | Power Jack          | 12Vdc barrel jack ( min 2A )                                 |
 | M    | USB OTG             | Micro-USB OTG port                                           |
-| N    | HDMI  port          | For  connecting external displays via HDMI ( **Only INTEL** ) |
+| N    | HDMI  port          | For  connecting external displays via HDMI ( **Only for Neuron Pi** ) |
 | O    | Audio Jack          | 3.5 mm Audio jack                                            |
 | P    | Reset  Button       | Forcefully  reboot your system                               |
 

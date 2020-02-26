@@ -15,7 +15,7 @@ The intent is to make it easier for developers and sensor manufacturers to map t
 
 
 
-Please refer to these links to know the details of 40 pin mapping:
+Please refer to the following link to know the details of 40 pin mapping:
 
 * [ADLINK IPi-SMARC ARM](https://github.com/eclipse/mraa/blob/master/docs/adlink_ipi_arm.md) (LEC-PX30 with Industrial Pi)
 * [ADLINK IPi-SMARC x86](https://github.com/eclipse/mraa/blob/master/docs/adlink_ipi_x86.md) (LEC-AL-AI with Industrial Pi)
