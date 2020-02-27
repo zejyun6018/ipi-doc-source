@@ -38,5 +38,5 @@ Please place SD card into the slot for your development kit. After the bootup fo
 
 
 
-**Note**: From [Rockchip document wiki page, **ARM Mali-G31 GPU** doesn't support x11 display server. Therefore, the default is Mesa GPU driver which supported on xfce Ubuntu image. 
+**Note**: Rockchip PX30 ARM Mali-G31 GPU doesn't support x11 display server. Therefore, the default is Mesa GPU driver which supported on xfce Ubuntu image. 
 
