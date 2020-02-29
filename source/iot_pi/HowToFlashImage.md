@@ -57,4 +57,3 @@ This procedure describes how to install u-boot, Linux kernel and filesystem imag
 Insert the prepared MicroSD card into the MicroSD card slot on the carrier. 
 
 **Note**: No need to configure on Boot selector of **LEC-PX30 with Industrial-Pi** for MicroSD card Booting. Only directly insert MicroSD Card and power on.
-

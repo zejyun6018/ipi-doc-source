@@ -15,7 +15,7 @@ The procedure to describes how to create Ubuntu Root File System(RFS) image on *
 
 2. Download Ubuntu 18.04 base from http://cdimage.ubuntu.com/ubuntu-base/releases/18.04/release/   and choose this one: `ubuntu-base-18.04.1-base-arm64.tar.gz`
 
-3. Create a temporary folder for decompression after download.
+3. Create a temporary folder on your working path for decompression after download.
 
    ```
    $ mkdir temp
@@ -62,19 +62,19 @@ The procedure to describes how to create Ubuntu Root File System(RFS) image on *
    $ apt install vim git sudo net-tools ifupdown kmod iputils-ping man wget bash-completion alsa-utils apt-utils usbutils locales i2c-tools netplan.io vnc4server lm-sensors usbmount gcc g++ cmake  can-utils sox v4l-utils xubuntu-desktop can-utils 
    ```
 
-6. Add user name:
+6. Add user name (here is the example how to add user name. you can enter what you want):
 
    ```
    $ useradd -s '/bin/bash' -m -G adm,sudo adlink
    ```
 
-8. Set user’s password:
+8. Set user’s password (here is the example how to add password. you can enter what you want):
 
    ```
-   $ passwd adlink
+   $ passwd adlink123
    ```
 
-9. Set the root user’s password:
+9. Set the root user’s password (here is the example how to add password. you can enter what you want):
 
    ```
    $ passwd root
