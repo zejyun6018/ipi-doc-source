@@ -1,22 +1,22 @@
 title: How to flash image to SD Card
 ---
 
-The procedure to describes how to flash the image to the SD Card
+The procedure to describes how to flash **Ubuntu/Yocto** image with u-boot, Linux kernel and filesystem to the SD Card
 
 
 
-## Prerequisites
+<br>
+
+## To Flash Ubuntu Image
+
+### Prerequisites
 
 - Copy the prebuilt bootable Linux image to the working directory on your development host.
 - In Windows environment, please download [rufus](https://rufus.ie/) to flash image to SD Card
 
+​       **Note:** All of files will be erased on SD Card. The size should be at least 16 Gb.
 
-## Getting Started
-
-This procedure describes how to install u-boot, Linux kernel and filesystem images to MicroSD Card.
-
-​       **Note:** All of files will be erased on MicroSD Card. The size should be at least 16 Gb.
-
+<br>
 
 ### Windows Host:
 
@@ -35,25 +35,57 @@ This procedure describes how to install u-boot, Linux kernel and filesystem imag
 
 ### Linux Host:
 
-1. Insert an empty SD Card into development host and enter the following command to copy .img to MicroSD Card
-
+1. Copy the prebuilt bootable Linux image to the working directory on your development host.Insert an empty SD Card into development host and enter the following command to copy .img to SDcard
+   
    ```
    $ sudo dd if=[your image].img of=/dev/sd[x]
    ```
    
-   **Note**: please look for the location of MicroSD card device, such as /dev/sdb or /dev/sda and also verify the correct device name. if writing to the wrong device, it might result in data loss
+   **Warning**: Make sure the SDcard device is properly identified as /dev/sdb or /dev/sda  and verify that the device name is correct. Data loss may result if written to wrong device. 
    
-   
-   
-2. After done, please enter the following command
+2. After it completes, please enter the following command
 
    ```
    $ sync
    ```
-   
 
 
 
-Insert the prepared MicroSD card into the MicroSD card slot on the carrier. 
+<br>
 
-**Note**: No need to configure on Boot selector of **LEC-PX30 with Industrial-Pi** for MicroSD card Booting. Only directly insert MicroSD Card and power on.
+
+
+## To Flash Yocto Image
+
+### Prerequisites
+
+- Copy the prebuilt bootable Linux image to the working directory on your development host.
+- In Windows environment, please download [Rockchip SD Firmware tool](https://hq0epm0west0us0storage.blob.core.windows.net/development/LEC-PX30/Tools/SDDiskTool_v1.6.rar) to flash image to SD Card
+
+​       **Note:** All of files will be erased on SD Card. The size should be at least 16 Gb.
+
+
+<br>
+
+### Windows Host:
+
+Insert an empty MicroSD Card into development host and execute Rockhip SD Firmware tool. in the below, 
+
+* Select "Choose removable disk" as your SD card
+
+* Choose "Function mode" as **SD Boot**
+
+* Lod your build Yocto image as "Firmware" 
+
+then, click "Create button" to start.
+
+
+![image-20200302114938191](HowToFlashImage.assets/image-20200302114938191.png)
+
+
+
+
+Now, remove the SDcard and insert it into the SDcard slot on the carrier.
+
+**Note**: There is no need to configure the boot selector of **LEC-PX30 with Industrial-Pi** for SDcard booting. You can directly insert SD card and power on the system.
+
