@@ -14,13 +14,13 @@ The procedure to describes how to flash **Ubuntu/Yocto** image with u-boot, Linu
 - Copy the prebuilt bootable Linux image to the working directory on your development host.
 - In Windows environment, please download [rufus](https://rufus.ie/) to flash image to SD Card
 
-​       **Note:** All of files will be erased on SD Card. The size should be at least 16 Gb.
+​       **Note:** All files will be erased on SD Card. The size should be preferable 16 Gb or larger, a class 10 SD card or higher advised
 
 <br>
 
 ### Windows Host:
 
-1. Insert an empty MicroSD Card into development host and execute rufus.exe as the below. it will auto-detected your storage.
+1. Insert an empty MicroSD Card into the development host and execute rufus.exe as the below. it will auto-detected your storage.
 
 <img align="center" src="HowToFlashImage.assets/rufus_1.png" style="zoom: 67%;" />
 
@@ -62,14 +62,14 @@ The procedure to describes how to flash **Ubuntu/Yocto** image with u-boot, Linu
 - Copy the prebuilt bootable Linux image to the working directory on your development host.
 - In Windows environment, please download [Rockchip SD Firmware tool](https://hq0epm0west0us0storage.blob.core.windows.net/development/LEC-PX30/Tools/SDDiskTool_v1.6.rar) to flash image to SD Card
 
-​       **Note:** All of files will be erased on SD Card. The size should be at least 16 Gb.
+​       **Note:** All files will be erased on SD Card. The size should be preferable 16 Gb or larger, a class 10 SD card or higher advised
 
 
 <br>
 
 ### Windows Host:
 
-Insert an empty MicroSD Card into development host and execute Rockhip SD Firmware tool. in the below, 
+Insert an empty MicroSD Card into the development host and execute Rockhip SD Firmware tool. in the below window; 
 
 * Select "Choose removable disk" as your SD card
 

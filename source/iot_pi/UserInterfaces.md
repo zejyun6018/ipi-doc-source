@@ -73,4 +73,4 @@ Following items are needed when connecting your Ipi-SMARC to an external display
 
 ## **Linux OS image**
 
-The Industrial Pi-SMARC is equipped with a MICRO SD card slot to boot a compatible operating system and OS image also included MRAA Library & sample codes.  
+The Industrial Pi-SMARC is equipped with a MICRO SD card slot to boot a compatible operating system and OS image, this also includes MRAA Library & sample codes.

@@ -4,14 +4,14 @@ iot_pi:
     UnBoxing: UnBoxing.html
     User Interfaces: UserInterfaces.html
     How to Setup: HowToSetup.html
-  Image downloads:
+  Supported Operating System:
     Ubuntu: UbuntuImages.html
     Yocto: YoctoImages.html
     How To flash SD Card: HowToFlashImage.html
   Build your OS:
     How to Build Ubuntu: HowToBuildUbuntu.html
     How to Build Yocto: HowToBuildYocto.html
-  Adding MRAA/UPM:
+  Adding MRAA:
     How to Install : HowToInstallMRAA.html
   Hardware Overview:
     SMARC Overview: SMARCModuleOverview.html

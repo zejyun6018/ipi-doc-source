@@ -5,5 +5,5 @@ title: How to Build Yocto Linux
 
 We provide [meta-adlink-rockchip](https://github.com/adlink/meta-adlink-rockchip) is an Yocto BSP layer for LEC-PX30 with Industrial Pi. 
 
-Please refer to [here](https://github.com/adlink/meta-adlink-rockchip/wiki) to guide you how to build Yocto Linux.  
+Please refer to the following [page](https://github.com/ADLINK/meta-adlink-rockchip/wiki/01.-Build-Yocto-Image-on-LEC-PX30-with-IPi-SMARC) to guide you how to build Yocto Linux.  
 

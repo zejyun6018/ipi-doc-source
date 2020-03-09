@@ -3,13 +3,15 @@ title: Ubuntu Images
 
  ### Ubuntu Bionic 18.04 LTS Xfce Desktop Environment
 
+Ubuntu is not available for download but has to be compiled by the user himself, please follow the steps in “build your OS” to do this
+
 <img src="UbuntuImages.assets/Screenshot_2020-01-08_11-51-14.png" alt="Screenshot_2020-01-08_11-51-14" style="zoom: 33%;" />
 
-Please place SD card into the slot for your development kit. After the bootup for a while, you will see the above screen. If your kit arrived without SD card contact your distributor to obtain one.
+Boot the system with the SD card placed in the slot located on the carrier, once booted you will see the login screen
 
 
 
-**Note**: This kernel is not native from Ubuntu. Here is the [instructions](https://ipi.wiki/iot_pi/HowToBuildUbuntu.html) to build Ubuntu rootfs image which is attached to PX30 u-boot & Kernel.
+**Note:** Note: The kernel used is not Ubuntu native, Here are  the [instructions](https://ipi.wiki/iot_pi/HowToBuildUbuntu.html) to build a Ubuntu rootfs image which is bootstrapped by the PX30 u-boot & Kernel.
 
 
 
@@ -25,7 +27,7 @@ Please place SD card into the slot for your development kit. After the bootup fo
 
 <br>
 
-### What's feature enabled:
+### Supported features & interfaces 
 
 * Linux Kernel version: **4.4.167**
 * [40 Pin expansion Header](https://ipi.wiki/iot_pi/UserInterfaces.html) with [Eclipse Mraa library](https://github.com/eclipse/mraa) which supports C/C++, Python, JAVA and Javascript	

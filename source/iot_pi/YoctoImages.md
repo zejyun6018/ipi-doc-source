@@ -6,7 +6,7 @@ title: Yocto Linux Images
 
 ## Yocto rocko with Xfce Desktop Environment
 
-Please place SD card into the slot for your development kit. After the bootup for a while, you will see the below screen. If your kit arrived without SD card, please contact your distributor to obtain one.
+Boot the system with the SD card placed in the slot located on the carrier, once booted you will see the login screen:
 
 <img src="YoctoImages.assets/yocto_desktop.png" alt="yocto_desktop" style="zoom: 33%;" />
 
@@ -14,16 +14,16 @@ Please place SD card into the slot for your development kit. After the bootup fo
 
 
 ## Usernames and passwords
-* One user are defined on the system: **root**
+* One user is defined on the system: **root**
 
   
 
 ### Binary Image download Link
-* SD Card Installation of Yocto Image with xfce Desktop: [Click here](https://hq0epm0west0us0storage.blob.core.windows.net/development/LEC-PX30/Images/Yocto/v1.0.5-20200224/LEC-PX30-IPi-SMARC_Yocto-v1.0.5_SD_20200224.zip)
+* Pre-compiled Yocto image with XFCE desktop and MRAA libraries: [Click here](https://hq0epm0west0us0storage.blob.core.windows.net/development/LEC-PX30/Images/Yocto/v1.0.5-20200224/LEC-PX30-IPi-SMARC_Yocto-v1.0.5_SD_20200224.zip)
 
-<br>
+<br >
 
-## What’s feature enabled:
+## Supported features & interfaces 
 
 * Linux Kernel version: **4.4.185**
 * [40 Pin expansion Heade](https://ipi.wiki/iot_pi/UserInterfaces.html)r with [Eclipse Mraa library](https://github.com/eclipse/mraa) which supports C/C++, Python, JAVA and Javascript

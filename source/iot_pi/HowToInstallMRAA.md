@@ -11,8 +11,6 @@ The intent is to make it easier for developers and sensor manufacturers to map t
 
 ​		Our MRAA libraries has been ready on [**Eclipse MRAA GitHub**]( https://github.com/eclipse/mraa) to support **LEC-PX30 & LEC-AL-AI with industrial Pi-SMARC** as the following screen:
 
-![image-20191215174758939](HowToInstallMRAA.assets/image-20191215174758939.png)
-
 
 
 Please refer to the following link to know the details of 40 pin mapping:
