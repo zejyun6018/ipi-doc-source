@@ -4,7 +4,7 @@ iot_pi:
     UnBoxing: UnBoxing.html
     User Interfaces: UserInterfaces.html
     How to Setup: HowToSetup.html
-  Supported Operating System:
+  Supported OS:
     Ubuntu: UbuntuImages.html
     Yocto: YoctoImages.html
     Prepre your SD Card: HowToFlashImage.html

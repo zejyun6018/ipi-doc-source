@@ -3,15 +3,15 @@ title: Ubuntu Images
 
  ### Ubuntu Bionic 18.04 LTS Xfce Desktop Environment
 
-Ubuntu is not available for download but has to be compiled by the user himself, please follow the steps in “build your OS” to do this
+Boot the system with the SD card placed in the slot located on the carrier, once booted you will see the login screen
 
 <img src="UbuntuImages.assets/Screenshot_2020-01-08_11-51-14.png" alt="Screenshot_2020-01-08_11-51-14" style="zoom: 33%;" />
 
-Boot the system with the SD card placed in the slot located on the carrier, once booted you will see the login screen
+Ubuntu is not available for download but has to be compiled by the user himself, please follow [the steps](https://ipi.wiki/iot_pi/HowToBuildUbuntu.html) in “build your OS” to do this.
 
 
 
-**Note:** Note: The kernel used is not Ubuntu native, Here are  the [instructions](https://ipi.wiki/iot_pi/HowToBuildUbuntu.html) to build a Ubuntu rootfs image which is bootstrapped by the PX30 u-boot & Kernel.
+**Note:** Note: The kernel used is not Ubuntu native. Ubuntu rootfs image which is bootstrapped by the PX30 u-boot & Kernel.
 
 
 

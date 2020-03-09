@@ -21,7 +21,7 @@ Boot the system with the SD card placed in the slot located on the carrier, once
 ### Binary Image download Link
 * Pre-compiled Yocto image with XFCE desktop and MRAA libraries: [Click here](https://hq0epm0west0us0storage.blob.core.windows.net/development/LEC-PX30/Images/Yocto/v1.0.5-20200224/LEC-PX30-IPi-SMARC_Yocto-v1.0.5_SD_20200224.zip)
 
-<br >
+
 
 ## Supported features & interfaces 
 
