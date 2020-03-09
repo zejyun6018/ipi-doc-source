@@ -79,8 +79,7 @@ Insert an empty MicroSD Card into development host and execute Rockhip SD Firmwa
 
 then, click "Create button" to start.
 
-
-![image-20200302114938191](HowToFlashImage.assets/image-20200302114938191.png)
+<img src="HowToFlashImage.assets/image-20200303115215481.png" alt="image-20200303115215481" style="zoom:80%;" />
 
 
 
