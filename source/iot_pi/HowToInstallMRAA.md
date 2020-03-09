@@ -5,21 +5,14 @@ Eclipse Mraa (Libmraa) is a C/C++ library with bindings to Java, Python and Java
 
 The intent is to make it easier for developers and sensor manufacturers to map their sensors & actuators on top of supported hardware and to allow control of low level communication protocol by high level languages & constructs.
 
-
-<br>
-## Getting Started
-
-​		Our MRAA libraries has been ready on [**Eclipse MRAA GitHub**]( https://github.com/eclipse/mraa) to support **LEC-PX30 & LEC-AL-AI with industrial Pi-SMARC** as the following screen:
+Our MRAA libraries has been ready on [**Eclipse MRAA GitHub**]( https://github.com/eclipse/mraa) to support **LEC-PX30 & LEC-AL-AI with industrial Pi-SMARC** as the following screen:
 
 
 
-Please refer to the following link to know the details of 40 pin mapping:
-
-* [ADLINK IPi-SMARC ARM](https://github.com/eclipse/mraa/blob/master/docs/adlink_ipi_arm.md) (LEC-PX30 with Industrial Pi)
-* [ADLINK IPi-SMARC x86](https://github.com/eclipse/mraa/blob/master/docs/adlink_ipi_x86.md) (LEC-AL-AI with Industrial Pi)
+**Note:** By default, MRAA library is already on PX30 Yocto image & also mentioned in the section of Ubuntu instruction . 
 
 
-<br>
+
 ## How to Build MRAA on your boards:
 
 Please refer to [here](https://github.com/eclipse/mraa/blob/master/docs/building.md) to guide you how to build MRAA

@@ -7,7 +7,7 @@ iot_pi:
   Supported Operating System:
     Ubuntu: UbuntuImages.html
     Yocto: YoctoImages.html
-    How To flash SD Card: HowToFlashImage.html
+    Prepre your SD Card: HowToFlashImage.html
   Build your OS:
     How to Build Ubuntu: HowToBuildUbuntu.html
     How to Build Yocto: HowToBuildYocto.html

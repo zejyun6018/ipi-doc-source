@@ -1,4 +1,4 @@
-title: How to flash image to SD Card
+title: How to Flash image SD Card
 ---
 
 The procedure to describes how to flash **Ubuntu/Yocto** image with u-boot, Linux kernel and filesystem to the SD Card
