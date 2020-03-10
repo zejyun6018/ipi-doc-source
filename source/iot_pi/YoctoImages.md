@@ -16,6 +16,8 @@ Boot the system with the SD card placed in the slot located on the carrier, once
 ## Usernames and passwords
 * One user is defined on the system: **root**
 
+* password is not required
+
   
 
 ### Binary Image download Link

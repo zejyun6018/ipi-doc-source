@@ -71,6 +71,8 @@ The procedure to describes how to flash **Ubuntu/Yocto** image with u-boot, Linu
 
 Insert an empty MicroSD Card into the development host and execute Rockhip SD Firmware tool. in the below window; 
 
+* Run **SD Firmware Tool**  as a administrator.
+
 * Select "Choose removable disk" as your SD card
 
 * Choose "Function mode" as **SD Boot**
@@ -80,6 +82,9 @@ Insert an empty MicroSD Card into the development host and execute Rockhip SD Fi
 then, click "Create button" to start.
 
 <img src="HowToFlashImage.assets/image-20200303115215481.png" alt="image-20200303115215481" style="zoom:80%;" />
+
+* It will prompt user that data will be lost. Select "Yes" to continue.
+* Once done, click "OK" and close SD Firmware Tool. Eject SD card and insert in LEC-PX30 board and power on the board to boot up.
 
 
 
