@@ -1,6 +1,8 @@
  title: SMARC®
 ---
 
+1111
+
 SMARC (Smart Mobility ARChitecture) form factor is the only computer-on-module form factor that truly is capable of supporting both ARM and x86 designs. With 314-pins on a high speed MXM3 connector, SMARC can fully cover both typical x86 interfaces as well as typical ARM type low level signals. Using ARM SoCs opens the possibility to leverage the product ecosystem of familiar devices such as tablet computers and smart phones. Alternative low power SoCs and CPUs, such as tablet oriented x86 devices and other RISC CPUs may be used as well. 
 
 The Modules are used as building blocks for portable and stationary embedded systems. The core CPU and support circuits are concentrated on the Module. 
